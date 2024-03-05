@@ -1136,7 +1136,7 @@ header nav .toggle {
 
 /* foot */
 
-.foot {
+.footer {
   padding-top: calc(100px / 2);
   padding-bottom: calc(100px / 2);
   background-image: url(../img/desktop-wallpaper-purple-blue-swirl-abstract.jpg);
@@ -1146,7 +1146,7 @@ header nav .toggle {
   color: white;
 }
 
-.foot::before {
+.footer::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.488);
   position: absolute;
@@ -1156,15 +1156,15 @@ header nav .toggle {
   height: 100%;
 }
 
-.foot .container {
+.footer .container {
   position: relative;
 }
 
-.foot .container img {
+.footer .container img {
   width: 70px;
   margin-bottom: 20px;
 }
-.foot p:not(.copyright) {
+.footer p:not(.copyright) {
   text-transform: uppercase;
   padding: 10px;
   border-bottom: 1px solid white;
@@ -1173,15 +1173,15 @@ header nav .toggle {
   margin: 10px auto;
 }
 
-.foot .icon i {
+.footer .icon i {
   padding: 10px 15px;
 }
 
-.foot .copyright {
+.footer .copyright {
   margin-top: 20px;
 }
 
-.foot span {
+.footer span {
   font-weight: bold;
   color: blueviolet;
 }
